@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(197, 196, 255);
+    
+}
+.casa{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 80px;
+    color:salmon;
+    text-align: center;
+    line-height: 150px;
+    background-color: white;
+}
+.linha{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+}
+#resultado{
+border: 1px solid black;
+padding: 10px;
+background-color:white;
+padding-top: 5px;
+
+}
